@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+    <style>
+        html, body{
+            padding: 0%;
+            margin: 0%;
+            height: 100%;
+        }
+
+        .wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .box{
+            border: 1px solid;
+            width: 150px;
+            height: 150px;
+            transition: .3s width,
+                        .3s height .3s,
+                        1s background-color;
+        }
+        
+        .box:hover{
+            width: 300px;
+            height: 300px;
+            background-color: rgb(39, 38, 38);
+        }
+        .size{
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+    
+        </div>
+    </div>
+    <h1>my video</h1>
+    <ul id="my-video">
+        <li data-duration="12:44">Amnesia Rebirth Walkthrough part3</li>
+        <li data-duration="10:15">Resident Evil 2 Walkthrough part1</li>
+        <li data-duration="18:15">Resident Evil 2 Walkthrough part2</li>
+        <li data-duration="30:25">Resident Evil 2 Walkthrough part3</li>
+        <li data-duration="1:10">Live nonton windah</li>
+        <li data-duration="16:54">Resident Evil 2 Walkthrough part4</li>
+        <li data-duration="32:47">Amnesia Rebirth Walkthrough part2</li>
+        <li data-duration="11:27">Resident Evil 2 Walkthrough part5</li>
+        <li data-duration="20:41">Amnesia Rebirth Walkthrough part1</li>
+        <li data-duration="13:49">Resident Evil 2 Walkthrough part6</li>
+        <li data-duration="12:21">Resident Evil 2 Walkthrough part7</li>
+        <li data-duration="15:18">Resident Evil 2 Walkthrough part8</li>
+        <li data-duration="11:42">Resident Evil 2 Walkthrough fina</li>
+    </ul>
+
+    <h1>my playlist</h1>
+    <p>jumlah video RE2 : <span class="jumlah-video"></span></p>
+    <p>Total Durasi : <span class="total-durasi"></span></p>
+
+    <script src="latihan.js"></script>
+</body>
+</html>
